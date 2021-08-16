@@ -3,4 +3,7 @@
 
 0x01-insert_in_sorted_linked_list/linked_lists.c
 0x01-insert_in_sorted_linked_list/insert
+
 0x02-heap_insert/binary_tree_print.c
+
+0x04-sandpiles/0-sandpiles
