@@ -4,4 +4,5 @@
 -   [x] [0x01. Insert in sorted linked list](https://github.com/pforciol/holbertonschool-interview/tree/master/0x01-insert_in_sorted_linked_list)
 -   [x] [0x02. Heap insert](https://github.com/pforciol/holbertonschool-interview/tree/master/0x02-heap_insert)
 -   [x] [0x03. Minimum Operations](https://github.com/pforciol/holbertonschool-interview/tree/master/0x03-minimum_operations)
--   [ ] [0x04. Sandpiles](https://github.com/pforciol/holbertonschool-interview/tree/master/0x04-sandpiles)
+-   [x] [0x04. Sandpiles](https://github.com/pforciol/holbertonschool-interview/tree/master/0x04-sandpiles)
+-   [ ] [0x05. Linked list palindrome](https://github.com/pforciol/holbertonschool-interview/tree/master/0x05-linked_list_palindrome)
