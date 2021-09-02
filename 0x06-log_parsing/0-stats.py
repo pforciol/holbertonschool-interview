@@ -1,37 +1,43 @@
 #!/usr/bin/python3
+"""Log parsing"""
 from sys import stdin
 
 if __name__ == "__main__":
 
-    codes = {200: 0, 301: 0, 400: 0, 401: 0, 403: 0, 404: 0, 405: 0, 500: 0}
-    size = 0
+    statusCodes = {200: 0, 301: 0, 400: 0, 401: 0,
+                   403: 0, 404: 0, 405: 0, 500: 0}
+    totalSize = 0
 
-    def parse(line):
-        """Parses the log line."""
-        global size
+    def parseLine(line):
+        """Parses a line of known format"""
+        global totalSize
 
-        fields = line.rstrip().split(' ')
-        size += int(fields[-1])
+        try:
+            toks = line.rstrip().split(' ')
+            totalSize += int(toks[-1])
 
-        if int(fields[-2]) in codes:
-            codes[int(fields[-2])] += 1
+            if int(toks[-2]) in statusCodes:
+                statusCodes[int(toks[-2])] += 1
 
-    def printData():
-        """Prints the computed data each 10 iteration and on quit."""
-        print("File size: {}".format(size))
-        for i in sorted(codes.keys()):
-            if codes[i]:
-                print("{}: {}".format(i, codes[i]))
+        except BaseException:
+            pass
 
-    lineCount = 0
+    def printStats():
+        """Prints all current stats"""
+        print("File size: {}".format(totalSize))
+        for k in sorted(statusCodes.keys()):
+            if statusCodes[k]:
+                print("{}: {}".format(k, statusCodes[k]))
+
+    lineNb = 1
 
     try:
         for line in stdin:
-            parse(line)
-            if lineCount % 10 == 0:
-                printData()
-            lineCount += 1
+            parseLine(line)
+            if lineNb % 10 == 0:
+                printStats()
+            lineNb += 1
     except KeyboardInterrupt:
-        printData()
+        printStats()
         raise
-    printData()
+    printStats()
