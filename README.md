@@ -9,4 +9,5 @@
 -   [x] [0x06. Log parsing](https://github.com/pforciol/holbertonschool-interview/tree/master/0x06-log_parsing)
 -   [x] [0x07. Linked list cycle](https://github.com/pforciol/holbertonschool-interview/tree/master/0x06-linked_list_cycle)
 -   [x] [0x08. Palindrome integer](https://github.com/pforciol/holbertonschool-interview/tree/master/0x08-palindrome_integer)
--   [ ] [0x09. UTF-8 Validation](https://github.com/pforciol/holbertonschool-interview/tree/master/0x09-utf8_validation)
+-   [x] [0x09. UTF-8 Validation](https://github.com/pforciol/holbertonschool-interview/tree/master/0x09-utf8_validation)
+-   [ ] [0x0A. 2048 (single line)](https://github.com/pforciol/holbertonschool-interview/tree/master/0x0A-slide_line)
