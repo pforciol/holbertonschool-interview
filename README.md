@@ -14,4 +14,5 @@
 -   [x] [0x0B. Menger Sponge](https://github.com/pforciol/holbertonschool-interview/tree/master/0x0B-menger)
 -   [x] [0x0C. NQueens](https://github.com/pforciol/holbertonschool-interview/tree/master/0x0C-nqueens)
 -   [x] [0x0D. AVL to Array](https://github.com/pforciol/holbertonschool-interview/tree/master/0x0D-sorted_array_to_avl)
--   [ ] [0x0E. Linear Skip](https://github.com/pforciol/holbertonschool-interview/tree/master/0x0E-linear_skip)
+-   [x] [0x0E. Linear Skip](https://github.com/pforciol/holbertonschool-interview/tree/master/0x0E-linear_skip)
+-   [ ] [0x0F. Star Wars API](https://github.com/pforciol/holbertonschool-interview/tree/master/0x0F-starwars_api)
