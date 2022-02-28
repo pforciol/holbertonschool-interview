@@ -28,4 +28,6 @@
 -   [x] [0x19. Making Change](0x19-making_change)
 -   [x] [0x1A. Double Circular Linked List](0x1A-double_circular_linked_list)
 -   [x] [0x1B. Radix Sort](0x1B-radix_sort)
+-   [x] [0x1C. Island Perimeter](0x1C-island_perimeter)
+-   [x] [0x1D. AVL Trees](0x1D-avl_trees)
 
