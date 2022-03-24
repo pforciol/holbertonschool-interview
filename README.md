@@ -30,4 +30,7 @@
 -   [x] [0x1B. Radix Sort](0x1B-radix_sort)
 -   [x] [0x1C. Island Perimeter](0x1C-island_perimeter)
 -   [x] [0x1D. AVL Trees](0x1D-avl_trees)
+-   [x] [0x1E. Wild Compare](0x1E-wild_cmp)
+-   [x] [0x1F. Pascal's Triangle](0x1F-pascal_triangle)
+-   [x] [0x20. Regex](0x20-regex)
 
